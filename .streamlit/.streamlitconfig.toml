@@ -1,0 +1,9 @@
+# toml file externally helps streamlit configure theme, inside you streamlit code directory,make directory with name .streamlit to access streamlit, then inside this directory make.toml file containing settings
+
+[theme] # section to access and configure themes
+base="dark"
+primaryColor="#1f77b4"
+backgroundColor="#0e1117"
+secondaryBackgroundColor="#262730"
+textColor="#c7c7bc"
+font="sans serif"
