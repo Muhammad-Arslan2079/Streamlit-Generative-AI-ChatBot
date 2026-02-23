@@ -42,7 +42,7 @@ for message in st.session_state.chat_history: # for loop runs for one by one mes
 
 with st.sidebar:
     st.header("⚙️ Settings")
-
+    st.file_uploader("Upload any file", type=None)  # None = all types allowed
     temperature = st.slider("Temperature", 0.0, 1.0, 0.0, 0.1)
 
     if st.button("🗑️ Clear Chat"):
