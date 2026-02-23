@@ -1,9 +1,4 @@
-streamlit # library for user interface
-python-dotenv # to store api key in environment variables instead of directly giving in main.py file
-langchain-community # lagchain framework to initialize llms
-langchain-groq # groq library access groq  using langchain
-# run in teminal ' pip install -r requirments.txt', note: u should be in particular directory where your requirment file is located
-# for my casE:  cd "Generative ai development"
-# this wil install all libraries recursivly,- r represents recursive installation
-# to go inside specific directory,type in terminal: cd 'your directory name'
-# to run streamlit application, typ this in terminal: streamlit run "Chatbot_UI_using_Streamlit.py"
+streamlit
+python-dotenv
+langchain-community
+langchain-groq
