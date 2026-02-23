@@ -43,7 +43,7 @@ for message in st.session_state.chat_history: # for loop runs for one by one mes
 with st.sidebar:
     st.header("⚙️ Settings")
 
-    temperature = st.slider("Adjust temperature for creative responses", 0.0, 1.0, 0.0, 0.1)
+    temperature = st.slider("Temperature", 0.0, 1.0, 0.0, 0.1)
 
     if st.button("🗑️ Clear Chat"):
         st.session_state.chat_history = []
